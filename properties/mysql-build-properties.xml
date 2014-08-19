@@ -3,12 +3,12 @@
 <project name="MySQL Properties" default="all" basedir=".">
 
 
-    <property name="JAVAC" value="C:\\Java\\jdk1.7.0\\bin\\javac"/>
-    <property name="JAVA" value="C:\\Java\\jdk1.7.0\\bin\\java"/>
+    <property name="JAVAC" value="C:\\Program Files (x86)\\Java\\jdk1.7.0\\bin\\javac"/>
+    <property name="JAVA" value="C:\\Program Files (x86)\\Java\\jdk1.7.0\\bin\\java"/>
 
 
   <property name="PROPERTIESFILE" value="properties/mysql-sample-properties.xml"/>
-  <property name="MYSQLDRIVER" value="C:\\mysql\\mysql-connector-java-5.1.15-bin.jar"/>
+  <property name="MYSQLDRIVER" value="C:\\Users\\emosjil\\mysql-connector-java-5.1.31\\mysql-connector-java-5.1.31-bin.jar"/>
 
   <path id="CLASSPATH">
     <pathelement location="classes"/>
@@ -25,7 +25,7 @@
   <property name="DB.URL.NEWDATABASE" value="jdbc:mysql://${DB.HOST}:${DB.PORT}/?allowMultiQueries=true"/>
   <property name="DB.URL" value="jdbc:mysql://${DB.HOST}:${DB.PORT}/${DB.SID}?allowMultiQueries=true"/>
   <property name="DB.USER" value="root"/>
-  <property name="DB.PASSWORD" value="root"/>
+  <property name="DB.PASSWORD" value=""/>
   <property name="DB.DELIMITER" value=";"/>
 
 </project>
